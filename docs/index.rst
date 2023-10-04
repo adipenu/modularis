@@ -1,5 +1,5 @@
-Home
-====
+Modularis
+=========
 
 .. image:: submodical_photo_lights.JPG
    :width: 529px
