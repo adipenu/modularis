@@ -28,12 +28,13 @@ release = "0.1"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.viewcode", "sphinx.ext.graphviz", "sphinx_copybutton", "sphinx_design"]
+extensions = ["sphinx.ext.viewcode", "sphinx.ext.graphviz", "recommonmark", "sphinx_copybutton", "sphinx_design"]
 
 
 source_suffix = {
     ".rst": "restructuredtext",
     ".txt": "restructuredtext",
+    ".md": "markdown",
 }
 
 # Add any paths that contain templates here, relative to this directory.
