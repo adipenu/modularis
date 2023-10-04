@@ -1,9 +1,10 @@
 # Modularis - Documentation
-<!-- [![Documentation Status](https://readthedocs.org/projects/av1tenth-docs/badge/?version=latest)](https://av1tenth-docs.readthedocs.io/en/latest/?badge=latest) -->
+
+[![Documentation Status](https://readthedocs.org/projects/modularis/badge/?version=latest)](https://modularis.readthedocs.io/en/latest/?badge=latest)
 
 
 ## Documentation
-The [documentation website](https://av1tenth-docs.readthedocs.io/en/latest/) can be accessed from the link.
+The [documentation website](https://modularis.readthedocs.io/en/latest/) can be accessed from the link.
 
 
 ## Dependencies
@@ -46,7 +47,7 @@ It is important that any new files created for the documentation are included in
 
 
 ## Build
-You can build the documentation by being in the root of the repository e.g. ``` ~/av1tenth-docs``` and typing the command:
+You can build the documentation by being in the root of the repository e.g. ``` ~/modularis``` and typing the command:
 ```bash
 ./scripts/build_docs.sh
 ```
