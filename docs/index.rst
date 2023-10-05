@@ -28,13 +28,11 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
 
 .. toctree::
    :caption: Software
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
+
+   ROS 2 Software <software/software>
    
-   Controls <software/control/control>
-   Drivers <software/drivers/drivers>
-   Interfaces <software/interfaces/interfaces>
-   Planning <software/planning/planning>
 
 
 .. toctree:: 
