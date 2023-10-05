@@ -120,3 +120,22 @@ If you want ROS 2 to be sourced everytime you open a terminal, run the following
 .. code-block:: bash
     
     echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+Raspberry Pi
+------------
+
+The raspberry pi has been setup with Ubuntu 22.04 Jammy Jellyfish with the following login for use.
+
+.. warning:: Please update this as necessary. **Losing the password can cause setbacks**
+
+* **User**: aprilab
+* **Password**: apr1lab
+
+Jetson Nano
+
+The Jetson Nano has been setup with Ubuntu 20.04 Focal Fossa by Nvidia with the following login for use.
+
+.. warning:: Please update this as necessary. **Losing the password can cause setbacks**
+
+* **User**: april
+* **Password**: apr1lab
