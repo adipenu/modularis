@@ -4,7 +4,7 @@ Setup
 Ubuntu Operating System
 --------------------------------------
 A Raspberry Pi or Jetson Nano with the ability to run docker will be required. Initially development will be completed on
-a Raspberry Pi 4 with stock Ubuntu 22.04 installed on it.
+a Raspberry Pi 4 with stock Ubuntu 22.04 installed on it. The Jetson Nano will be used for testing and development as well with docker.
 
 Python Installation and Required Packages 
 -----------------------------------------------------
@@ -45,6 +45,13 @@ You will also need NumPy for various things. They have arrays, array operations,
 .. code-block:: bash
     
     pip3 install lgpio
+
+You may need to give yourself permission to use the GPIO headers by adding yourself to the ``dialout`` group. This can be done by running the following command:
+
+.. code-block:: bash
+    
+        sudo usermod -aG dialout $USER
+    
 
 ROS 2 Installation and Configuration from Debian Packages
 ---------------------------------------------------------
@@ -107,15 +114,9 @@ Install Colcon.
 
     sudo apt install python3-colcon-common-extensions
 
-Install Ackermann messages:
-
-.. code-block:: bash
-
-    sudo apt install ros-humble-ackermann-msgs
-
 Configuring the terminal (Recommended)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you want ROS 2 to be sourced everytime you open a terminal, run the following command:
+If you want ROS 2 to be sourced every time you open a terminal, run the following command:
 
 .. code-block:: bash
     
@@ -134,7 +135,7 @@ The raspberry pi has been setup with Ubuntu 22.04 Jammy Jellyfish with the follo
 Jetson Nano
 ------------
 
-The Jetson Nano has been setup with Ubuntu 20.04 Focal Fossa by Nvidia with the following login for use.
+The Jetson Nano has been setup with Ubuntu 20.04 Focal Fossa by Nvidia with the following login for use. 
 
 .. warning:: Please update this as necessary. **Losing the password can cause setbacks**
 

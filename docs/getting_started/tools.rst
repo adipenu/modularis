@@ -68,12 +68,14 @@ SolidWorks
 ----------
 
 To access the mechanical CAD files, you will need access to SolidWorks. For in department at MAE - UF, you can access this by 
-visiting the area EML 2023 recommended or ask a PhD. student.
+visiting the area EML 2023 recommended or ask a PhD. student. For outside of the department, you can download a student version 
+from the `SolidWorks website <https://www.solidworks.com/sw/education/SDL_form.html>`_.
 
-Electrical CAD
+Altium Designer
 --------------
 
-TBD
+Altium Designer is a PCB design software that is used to design the PCBs for the project. It is a paid software, but UF provides it for free to students. 
+You can download it from the `UF Software website <https://software.ufl.edu/software-listing/altium-designer/>`_.
 
 Overleaf
 --------
@@ -90,6 +92,6 @@ MATLAB
 
 `MATLAB <https://www.mathworks.com/products/matlab.html>`_ is a programming language and computing environment that is a fairly simple and easy to understand. It can be used
 to complete highly complex calculations and process large data sets quickly. UF provides MATLAB for students through
-UFApps or you can buy a student license.
+UFApps or you can buy a student license. 
 
 
