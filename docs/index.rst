@@ -5,7 +5,9 @@ Modularis
    :width: 529px
    :height: 400px
    :align: center
+
 |
+
 While autonomous robots have seen significant research advancements in recent years, due to the harsh nature 
 of underwater environment, there is limited availability in finding off-the-shelf underwater robots for various 
 applications. Custom-built underwater robots may be necessary for specialized applications or missions, but the 
@@ -14,39 +16,48 @@ verification process difficult. To address these challenges, we propose a modula
 as an open-source testbed system that is customizable and subject to environmental variability.
 
 This project is under the `Active Perception and Robot Intelligence Lab <https://janeshin-website.github.io/>`_ at
-the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical and Aerospace Engineering <https://mae.ufl.edu>`_
+the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical and Aerospace Engineering <https://mae.ufl.edu>`_.
 
+.. toctree::
+   :caption: Getting Started
+   :maxdepth: 1
+   :hidden:
 
-.. .. tip:: If you want to build the car yourself for personal or other educational use, look at the vehicle information section. The `parts <vehicle_information/parts.html>`_ section outlines every piece of hardware required.
+   Setup <getting_started/setup>
+   Software Tools <getting_started/tools>
 
 .. toctree::
    :caption: Software
    :maxdepth: 1
+   :hidden:
    
-   Setup <software/setup>
-   Software Tools <software/tools>
+   Controls <software/control/control>
+   Drivers <software/drivers/drivers>
+   Interfaces <software/interfaces/interfaces>
+   Planning <software/planning/planning>
+
 
 .. toctree:: 
    :caption: Electrical Hardware
    :maxdepth: 1
+   :hidden:
 
    Electrical Hardware <electrical/electrical>
 
 .. toctree:: 
    :caption: Mechanical Hardware
    :maxdepth: 1
+   :hidden:
 
    Mechanical Hardware <mechanical/mechanical>
 
 .. toctree:: 
    :caption: Theoretical Information
    :maxdepth: 1
+   :hidden:
 
    Theoretical Information <theoretical/theoretical>
 
-
-..
-   Building the AV1tenth Car <information/build>
 
 
 

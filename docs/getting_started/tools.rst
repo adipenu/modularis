@@ -57,8 +57,39 @@ Extensions can be installed within the application by using the "Extensions" sid
 
 Byobu
 -----
-`Byobu <https://www.byobu.org/>`_ is a useful tool when working with multiple terminals. It is recommened to get familiar with it or any other terminal mutliplexer.
+`Byobu <https://www.byobu.org/>`_ is a useful tool when working with multiple terminals. It is recommended to 
+get familiar with it or any other terminal multiplexer.
 
 .. code-block:: bash
 
     sudo apt install byobu
+
+SolidWorks
+----------
+
+To access the mechanical CAD files, you will need access to SolidWorks. For in department at MAE - UF, you can access this by 
+visiting the area EML 2023 recommended or ask a PhD. student.
+
+Electrical CAD
+--------------
+
+TBD
+
+Overleaf
+--------
+
+Overleaf will be used extensively to write reports and papers through the completion of this project. Please learn LaTeX
+to use this tool. Some resources are given below:
+
+* `Overleaf/LaTeX tutorial <https://www.overleaf.com/learn/latex/Tutorials>`_
+* `LaTeX in 30 minutes <https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes>`_
+* `LaTeX for Beginners <https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf>`_
+
+MATLAB
+------
+
+`MATLAB <https://www.mathworks.com/products/matlab.html>`_ is a programming language and computing environment that is a fairly simple and easy to understand. It can be used
+to complete highly complex calculations and process large data sets quickly. UF provides MATLAB for students through
+UFApps or you can buy a student license.
+
+
