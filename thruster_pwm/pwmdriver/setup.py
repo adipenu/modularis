@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+from glob import glob
 
 package_name = 'pwmdriver'
 
@@ -20,7 +21,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'duty_cycle = pwmdriver.duty_cycle:main'
+            'duty_cycle = pwmdriver.duty_cycle:main',
+            'pwm_control_node = pwmdrivercontrol.pwm_control_node:main',
         ],
     },
 )
