@@ -1,0 +1,29 @@
+import launch
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    node3 = Node(
+        package='modularis_thruster_mapper',
+        executable='test_traj.py',
+        name='test_traj'
+    )
+    
+    node1 = Node(
+        package='modularis_thruster_mapper',
+        executable='controller.py',
+        name='adaptive_controller'
+    )
+
+    node2 = Node(
+        package='modularis_thruster_mapper',
+        executable='thruster_mapper.py',
+        name='thruster_mapper'
+    )
+
+    return LaunchDescription([
+        node3,
+        node1,
+        node2
+    ])
+
