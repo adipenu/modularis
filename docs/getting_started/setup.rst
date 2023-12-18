@@ -141,3 +141,54 @@ The Jetson Nano has been setup with Ubuntu 20.04 Focal Fossa by Nvidia with the 
 
 * **User**: april
 * **Password**: apr1lab
+
+
+Assembly and Build Instructions
+----------------------------------
+
+Introduction
+^^^^^^^^^^^^^^^^^^
+
+The Modularis kit requires several facets of assembly, can be completed with basic hand tools, no soldering or potting is required.
+We have included a few of the tools to make assembly and regular use as easy as possible.
+
+Parts and Tools
+^^^^^^^^^^^^^^^^
+
+You will need:
+
+Here is a link to a comprehensive google sheet specifing all the required materials, broken down by structural,
+electrical components, etc: 
+
+The additional items below will also be needed:
+
+
+- 1 x Wire cutters or scissors (for cutting zip ties)
+- 1 x Medium-strength (blue) threadlocker such as Loctite 242 or 243.
+- 1 x Bottle of Isopropyl alcohol or isopropyl alcohol wipes
+- 1 x Small (~2 mm) flat head screwdriver
+- Masking tape and a marker (optional)
+
+Assembling the Frame
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To prepare the frame panels you will need the following parts:
+
+- Bottom panel and slot nuts
+- Center panels and slot nuts
+
+1. Insert the four slot nuts included with the bottom panel into the slot nut pockets.
+
+.. image:: files/brov2-r4-assem-bottomp-slot-nuts.png
+   :width: 500px
+   :height: 500px
+   :align: center
+
+2. Insert the slot nuts included with the center panels into each nut pocket in the front and rear center panels. 
+The rear center panels are the two panels with three large holes at one end. Each panel receives two slot nuts.
+
+ .. image:: files/brov2-r4-assem-centerp-slot-nuts.png
+   :width: 500px
+   :height: 500px
+   :align: center
+
