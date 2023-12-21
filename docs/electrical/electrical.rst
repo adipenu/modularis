@@ -1,4 +1,21 @@
 Electrical
 ===========
 
-This page links to all the electrical designs, calculations, trade-offs etc. 
+Power Board and System
+-----------------------------
+
+.. image:: files/
+   :width: 529px
+   :height: 400px
+   :align: center
+
+Power Merge Board
+-------------------------------
+
+Main Board
+-----------------------------
+
+Sensor Board
+-----------------------------
+
+
