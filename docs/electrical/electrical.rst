@@ -45,7 +45,7 @@ architecture adopts a modular design in both
 hardware and software, enabling the AUV to
 facilitate diverse research applications.
 
-HARDWARE DESIGN
+Hardware Design
 --------------------
 The hardware for Modularis is broken down
 into three PCBs. Each board went through various
@@ -57,3 +57,4 @@ revisions from the previous and current semester.
 
    Main Printed Circuit Board <mainBoard/mainBoard>
    Power System <power/power>
+   Sensor Boards <sensorBoards/sensorBoards>

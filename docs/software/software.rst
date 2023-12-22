@@ -3,6 +3,57 @@ ROS 2 Software
 
 This area houses all the software documentation for the ROS 2 project. This includes documentation for the core 
 ROS 2 packages, as well as documentation for the various client libraries. Modularis Thruster Mapper
+
+The operating system used for the chosen
+single board computer, raspberry pi 4, is Ubuntu
+22.04 which provides support for ROS2 Humble.
+The AUV is intended for use tethered and untethered.
+When tethered, it will be connected to a more
+powerful land-based processor for advanced
+processing capabilities such as human recognition
+and object detection. When untethered, all the
+processing and data capture will be done on the
+onboard computer.
+
+The amount of thrust for each thruster
+dictates the direction and speed of movement for the
+AUV. To determine the desired thrusts for certain
+movements, we used a thruster mapper. 
+
+The thruster mapper is overall composed of 4 nodes in ROS2:
+path planner, controller, thruster mapper, and PWM
+conversion. 
+
+The path planning node publishes the
+/trajectory and /odometry topics that the controller
+node subscribes to. The path planning node
+determines the trajectory based on the desired
+direction given to it (such as submerge, moving
+forward, left, right).
+
+ The /trajectory topic specifies
+the desired position and orientation while the /odometry topic specifies the current location of the
+AUV. The /odometry topic should ideally be based
+on data gathered from sensors to accurately
+determine position, but currently the /odometry is
+determined based on a custom implementation that
+estimates the AUVs location based on the given
+trajectory. 
+
+The controller node uses this data to
+determine /wrench using a PID controller. 
+
+The thruster mapper node subscribes to /wrench and uses
+it to determine the amount of necessary effort for
+each thruster. The PWM driver node takes this
+information and uses it to send the appropriate
+commands for I2C communication.
+
+.. image:: ros2_graph.png
+   :width: 529px
+   :height: 400px
+   :align: center
+
 ===================
 
 Software dependencies:
@@ -79,7 +130,9 @@ How to connect thrusters to main board and raspberry pi:
    :caption: Software Tree
    :maxdepth: 1
 
+   Docker <docker/docker>
    Controls <control/control>
    Drivers <drivers/drivers>
    Interfaces <interfaces/interfaces>
    Planning <planning/planning>
+   Side Scan Sonar <sonar/sonar>

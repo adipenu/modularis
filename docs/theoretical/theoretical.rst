@@ -8,6 +8,8 @@ control theory etc.
    :maxdepth: 1
    :caption: Concepts
 
+   Modularis Dynamics Model <dynamics>
+   Omniverse Digital Twin <simulation>
    Controllers <controllers>
 
    

@@ -66,9 +66,8 @@ Designed to be Compatible With:
 - Blueprint subsea multibeam sonar
 
 
-
 System Cost
----------------------------
+---------------
 
 Cost is dependent on the peripherals you would like. Estimated cost here is based on the bill of materials. Use the following
 link to determine your cost based on your required sensors etc.
@@ -93,7 +92,6 @@ PCB's and PCB Components
 
 - Top bar connector
 - Battery mounts x 4
-- 
 
 Computing Units
 ^^^^^^^^^^^^^^^^^^
@@ -101,16 +99,12 @@ Computing Units
 - Pi vs Jetson
 
 Computational and System Requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sensors
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 
 - camera
-
-
-
-
 
 .. While autonomous robots have seen significant research advancements in recent years, due to the harsh nature 
 .. of underwater environment, there is limited availability in finding off-the-shelf underwater robots for various 
@@ -136,8 +130,6 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
    :hidden:
 
    ROS 2 Software <software/software>
-   
-
 
 .. toctree:: 
    :caption: Electrical Hardware
@@ -166,6 +158,13 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
    :hidden:
 
    Future work <futureWork/futureWork>
+
+.. toctree:: 
+   :caption: Test Cases and Demos
+   :maxdepth: 1
+   :hidden:
+
+   Test cases <testCases/testCases>
 
 
 
