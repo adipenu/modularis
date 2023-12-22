@@ -1,5 +1,5 @@
 Electrical
-===========
+================
 
 This page links to all the electrical designs, calculations, trade-offs etc. 
 
@@ -56,4 +56,4 @@ revisions from the previous and current semester.
    :maxdepth: 1
 
    Main Printed Circuit Board <mainBoard/mainBoard>
-   Power System <power/power.rst>
+   Power System <power/power>
