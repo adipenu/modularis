@@ -160,6 +160,11 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
 
    Theoretical Information <theoretical/theoretical>
 
+.. toctree:: 
+   :caption: Future Work
+   :maxdepth: 1
+   :hidden:
+
    Future work <futureWork/futureWork>
 
 
