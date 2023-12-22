@@ -3,6 +3,7 @@ Electrical
 
 This page links to all the electrical designs, calculations, trade-offs etc. 
 
+
 The core functionality of Modularis is found
 on the main PCB. Here is where all other boards and
 external devices interface to process data or provide
