@@ -18,6 +18,7 @@ We saw a lack in availability of affordable underwater vrobots which could easil
 Our lab needed a vehicle that was multipurpose; capable of equiping a wide suite of sensors without having to make time-consuming
 modifications. The idea for Modularis was born from this need. 
 
+
 Advantages and Limitations
 ----------------------------
 
@@ -38,6 +39,24 @@ Specifications
 - Custom top bar stability connector with additional BlueRobotics fairing mounts
 - Custom “spine” system designed to hold the 6 inch enclosure in place, depicted as the block underneath the 6 inch electronics enclosure
 - 2 x side scan sonar mounts for Starfish SSS
+
+Citation
+----------------------------------
+
+You can find the paper at 
+
+If you find Modularis helpful to your research, please consider citing:
+
+.. code-block: laTex
+
+   @INPROCEEDINGS{10337059,
+   author={Herrin, Baker and Close, Victoria and Berner, Nathan and Hebert, Joshua and Reussow, Ethan and James, Ryan and Woodward, Cale and Mindlin, Jared and Paez, Sebastian and Bretas, Nilson and Shin, Jane},
+   booktitle={OCEANS 2023 - MTS/IEEE U.S. Gulf Coast}, 
+   title={Modularis: Modular Underwater Robot for Rapid Development and Validation of Autonomous Systems}, 
+   year={2023},
+   pages={1-7},
+   doi={10.23919/OCEANS52994.2023.10337059}}
+
 
 Electronics Enclosure
 ^^^^^^^^^^^^^^^^^^^^^^^
