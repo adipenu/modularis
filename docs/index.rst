@@ -11,12 +11,14 @@ Modularis
 Purpose
 ---------------------------
 
-Modularis was designed for developers, as a underwater sensing platform to launch from for validating 
+Modularis was designed for developers as a underwater sensing platform for validating 
 autonomous mapping and planning algorithms.
 
-We saw a lack in availability of affordable underwater vrobots which could easily be used for mapping and planning research.
-Our lab needed a vehicle that was multipurpose; capable of equiping a wide suite of sensors without having to make time-consuming
+We both felt and saw a lack in availability of affordable underwater robots which could easily be used for mapping and planning research.
+
+Beyond this, our lab needed a vehicle that was multipurpose; capable of equiping a wide suite of sensors without having to make time-consuming
 modifications. The idea for Modularis was born from this need. 
+
 
 Advantages and Limitations
 ----------------------------
@@ -39,72 +41,26 @@ Specifications
 - Custom “spine” system designed to hold the 6 inch enclosure in place, depicted as the block underneath the 6 inch electronics enclosure
 - 2 x side scan sonar mounts for Starfish SSS
 
-Electronics Enclosure
-^^^^^^^^^^^^^^^^^^^^^^^
+Citation
+----------------------------------
 
-Modularis with the 6 inch enclosure can handle a load of at most:
-- 6 thrusters
-- 2 batteries
-- 1 tether
-- 1 set of BR lights (2 lights use 1 penetrator)
-- 2 additional external sensors ( or one side-scan sonar)
+You can find the paper `here <https://arxiv.org/abs/2401.06243>`_.
 
-FIXME: add image of penetrators face on, with each one's use labeled for 6-inch enclosure
+If you find Modularis helpful to your research, please consider citing:
 
-Sensors Equipable
-^^^^^^^^^^^^^^^^^^^^
+.. code-block:: latex
 
-- Starfish Side Scan Sonar (CAD for mounts provided)
-- High definition camera with servo for changing orientation
-- IMU #FIXME: IMU name
+   @INPROCEEDINGS{herrin2023modularis,
+   author={Herrin, Baker and Close, Victoria and Berner, Nathan and Hebert,
+   Joshua and Reussow, Ethan and James, Ryan and Woodward, Cale and Mindlin,
+   Jared and Paez, Sebastian and Bretas, Nilson and Shin, Jane},
+   booktitle={OCEANS 2023 - MTS/IEEE U.S. Gulf Coast}, 
+   title={Modularis: Modular Underwater Robot for Rapid Development 
+   and Validation of Autonomous Systems}, 
+   year={2023},
+   pages={1-7},
+   doi={10.23919/OCEANS52994.2023.10337059}}
 
-Designed to be Compatible With:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Dell Ultrasharp webcam
-- Waterlinked DVL
-- Cerulean Insight-forward looking sonar
-- Blueprint subsea multibeam sonar
-
-
-System Cost
----------------
-
-Cost is dependent on the peripherals you would like. Estimated cost here is based on the bill of materials. Use the following
-link to determine your cost based on your required sensors etc.
-
-https://docs.google.com/spreadsheets/d/13hn1dfgVYVuM1e82hrqp5kuuu4rw7KydsQJoyskKc7s/edit?usp=sharing
-
-BlueRobotics Parts
-^^^^^^^^^^^^^^^^^^^^^^
-
-- T200 thrusters x 6     | 
-- BR Skid                | $300
-- BR Base Frame
-- BR 
-
-PCB's and PCB Components
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- LaTeX
-
-3D Printed Parts
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Top bar connector
-- Battery mounts x 4
-
-Computing Units
-^^^^^^^^^^^^^^^^^^
-
-- Pi vs Jetson
-
-Computational and System Requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Sensors
-^^^^^^^^^^^
-
-- camera
 
 .. While autonomous robots have seen significant research advancements in recent years, due to the harsh nature 
 .. of underwater environment, there is limited availability in finding off-the-shelf underwater robots for various 
@@ -116,13 +72,21 @@ Sensors
 This project is under the `Active Perception and Robot Intelligence Lab <https://janeshin-website.github.io/>`_ at
 the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical and Aerospace Engineering <https://mae.ufl.edu>`_.
 
+.. image:: University-of-Florida-Logo.png
+   :scale: 10%
+   :align: center
+
+|
+
 .. toctree::
    :caption: Getting Started
    :maxdepth: 1
    :hidden:
 
+   System Info <getting_started/system>
    Setup <getting_started/setup>
    Software Tools <getting_started/tools>
+   People <getting_started/people>
 
 .. toctree::
    :caption: Software
@@ -138,6 +102,7 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
 
    Electrical Hardware <electrical/electrical>
 
+|
 .. toctree:: 
    :caption: Mechanical Hardware
    :maxdepth: 1
@@ -165,30 +130,6 @@ the `University of Florida <https://ufl.edu>`_ in the `Department of Mechanical 
    :hidden:
 
    Test cases <testCases/testCases>
-
-
-Contributors: Senior Design Projects
-------------------------------------------
-
-Tracking Contributions made by senior design students throughout the years.
-
-Fall 2022
-^^^^^^^^^^^^
-- Victoria and Camille
-
-Spring 2023
-^^^^^^^^^^^^^^
-- Cale and Ethan
-
-Fall 2023
-^^^^^^^^^^^^
-- David and Janica
-
-Spring 2024
-^^^^^^^^^^^^
-- 
-
-
 
 
    
